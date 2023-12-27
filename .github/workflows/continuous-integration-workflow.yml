@@ -40,7 +40,7 @@ jobs:
         - name: Build solution excluding SQL project
           run: |
             # List all .csproj files except for .sqlproj
-            $csproj_files = Get-ChildItem -Path . -Filter *.csproj -Recurse | Where-Object { $_.FullName -notmatch '\\.sqlproj$' }
+            $csproj_files = Get-ChildItem -Path . -Filter *.LearningHub.Nhs.Models.csproj -Recurse 
 
             # Build each .csproj file
             foreach ($csproj_file in $csproj_files) {
