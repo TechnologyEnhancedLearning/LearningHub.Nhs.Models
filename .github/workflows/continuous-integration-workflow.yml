@@ -39,8 +39,8 @@ jobs:
 
         - name: Dotnet build
           run:  dotnet build -C Release
-          working-directory: ./LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
+          working-directory: LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
 
         - name: Package nuget        
           run: dotnet pack -C Release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
-          working-directory: ./LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
+          working-directory: LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
