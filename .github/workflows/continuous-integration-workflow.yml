@@ -37,10 +37,17 @@ jobs:
             echo "Patch: ${{ steps.gitversion.outputs.patch }}"
             echo "NuGetVersionV2: ${{ steps.gitversion.outputs.nuGetVersionV2 }}"
 
-        - name: Dotnet build
-          run:  dotnet build -C Release
-          working-directory: LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
+        - name: Build solution excluding SQL project
+          run: |
+            # List all .csproj files except for .sqlproj
+            $csproj_files = Get-ChildItem -Path . -Filter *.csproj -Recurse | Where-Object { $_.FullName -notmatch '\\.sqlproj$' }
 
+            # Build each .csproj file
+            foreach ($csproj_file in $csproj_files) {
+              Write-Host "Building $($csproj_file.FullName)"
+              dotnet build "$($csproj_file.FullName)"
+            }       
+            
         - name: Package nuget        
           run: dotnet pack -C Release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
           working-directory: LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
