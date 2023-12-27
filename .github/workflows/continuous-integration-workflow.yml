@@ -1,8 +1,5 @@
 name: Models Continuous Integration
-on:
-  push:
-    tags:
-      - '*'
+on: [push]
 jobs:
   build:
       env:
