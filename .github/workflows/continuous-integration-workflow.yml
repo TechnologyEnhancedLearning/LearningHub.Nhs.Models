@@ -36,3 +36,9 @@ jobs:
             echo "Minor: ${{ steps.gitversion.outputs.minor }}"
             echo "Patch: ${{ steps.gitversion.outputs.patch }}"
             echo "NuGetVersionV2: ${{ steps.gitversion.outputs.nuGetVersionV2 }}"
+
+        - name: Dotnet build
+          run:  dotnet build /LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj --configuration release
+
+        - name: Package nuget        
+          run: dotnet pack /LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj --configuration release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
