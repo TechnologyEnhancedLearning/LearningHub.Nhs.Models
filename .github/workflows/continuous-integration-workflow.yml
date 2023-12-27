@@ -7,7 +7,7 @@ jobs:
         DOTNET_ROLL_FORWARD: 'Major'
         SOLUTION: 'LearningHub.Nhs.Models.sln'
       name: Build and publish package
-      runs-on: ubuntu-latest
+      runs-on: windows-latest
       strategy: 
           matrix:
            dotnet-version: ['6.0.x']
@@ -38,7 +38,9 @@ jobs:
             echo "NuGetVersionV2: ${{ steps.gitversion.outputs.nuGetVersionV2 }}"
 
         - name: Dotnet build
-          run:  dotnet build /LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj --configuration release
+          run:  dotnet build --configuration release
+          working-directory: ./LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
 
         - name: Package nuget        
-          run: dotnet pack /LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj --configuration release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
+          run: dotnet pack --configuration release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
+          working-directory: ./LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
