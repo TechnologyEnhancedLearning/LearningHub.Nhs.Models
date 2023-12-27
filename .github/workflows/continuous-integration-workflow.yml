@@ -38,9 +38,9 @@ jobs:
             echo "NuGetVersionV2: ${{ steps.gitversion.outputs.nuGetVersionV2 }}"
 
         - name: Dotnet build
-          run:  dotnet build --configuration release
+          run:  dotnet build -C Release
           working-directory: ./LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
 
         - name: Package nuget        
-          run: dotnet pack --configuration release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
+          run: dotnet pack -C Release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
           working-directory: ./LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
