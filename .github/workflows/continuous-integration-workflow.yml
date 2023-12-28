@@ -19,13 +19,17 @@ jobs:
     - name: Add Azure artifact
       run: dotnet nuget add source 'https://pkgs.dev.azure.com/e-LfH/_packaging/LearningHubFeed/nuget/v3/index.json' --name 'LearningHubFeed'  --username 'kevin.whittaker' --password ${{ secrets.AZURE_DEVOPS_PAT }} --store-password-in-clear-text
 
-    - name: Build projects
-      run: |            
-            $csproj_files = Get-ChildItem -Path . -Filter *.csproj -Recurse 
+    - name: Build LearningHub models projects
+      run: |
+        dotnet build LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj -c Release
 
-            # Build each .csproj file
-            foreach ($csproj_file in $csproj_files) {             
-              dotnet build "$($csproj_file.FullName)"
-              dotnet nuget push "**/bin/Release/*.nupkg"  --source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate               
-            }  
+    - name: Push generated package to GitHub registry         
+      run: dotnet nuget push "**/bin/Release/*.nupkg"  --source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate 
+
+    - name: Build elfhHub models projects
+      run: |
+        dotnet build elfhHub.Nhs.Models/elfhHub.Nhs.Models.csproj -c Release
+
+    - name: Push generated package to GitHub registry         
+      run: dotnet nuget push "**/bin/Release/*.nupkg"  --source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate 
     
