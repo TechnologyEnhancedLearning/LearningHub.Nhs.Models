@@ -1,4 +1,4 @@
-name: Models Continuous Integration
+name: ${{ env.date:yyyyMMdd }}${{ env.rev:.r }}
 on: [push]
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
       run: dotnet restore
 
     - name: Build
-      run: dotnet build --configuration $(BuildConfiguration)
+      run: dotnet **/*.csproj --configuration ${{ env.BuildConfiguration }}
 
     - name: Test
       run: dotnet test --configuration $(BuildConfiguration)
