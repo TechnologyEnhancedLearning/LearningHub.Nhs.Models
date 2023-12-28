@@ -2,37 +2,27 @@ name: Models Continuous Integration
 on: [push]
 jobs:
   build:
-      env:
-        BUILD_CONFIG: 'Release'
-        DOTNET_ROLL_FORWARD: 'Major'
-        SOLUTION: 'LearningHub.Nhs.Models.sln'
-      name: Build and publish package
-      runs-on: windows-latest
-      strategy: 
-          matrix:
-           dotnet-version: ['6.0.x']
-      steps:
-        - uses: actions/checkout@v2
-          with:
-           fetch-depth: 0
+    runs-on: ubuntu-latest
 
-        - name: Setup .NET Core SDK 60
-          uses: actions/setup-dotnet@v1
-          with:
-            dotnet-version: ${{ matrix.dotnet-version }}
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-        - name: Restore dependencies
-          run: dotnet restore
-    
-        - name: Build
-          run: dotnet build --configuration $(BuildConfiguration)
-    
-        - name: Test
-          run: dotnet test --configuration $(BuildConfiguration)
-    
-        - name: Pack
-          run: dotnet pack elfhHub.Nhs.Models/elfhHub.Nhs.Models.csproj LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj --no-build  
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v5
+      with:
+        dotnet-version: '5.x'  # Use the desired version
 
-        - name: Push generated package to GitHub registry         
-          run: dotnet nuget push ./package/*.nupkg  --source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} 
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --configuration $(BuildConfiguration)
+
+    - name: Test
+      run: dotnet test --configuration $(BuildConfiguration)
+
+    - name: Pack
+      run: dotnet pack elfhHub.Nhs.Models/elfhHub.Nhs.Models.csproj LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj --no-build    
+    
    
