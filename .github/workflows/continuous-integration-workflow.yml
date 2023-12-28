@@ -17,14 +17,7 @@ jobs:
         dotnet-version: ${{ matrix.dotnet-version }}
 
     - name: Add Azure artifact
-      run: dotnet nuget add source 'https://pkgs.dev.azure.com/e-LfH/_packaging/LearningHubFeed/nuget/v3/index.json' --name 'LearningHubFeed'  --username 'kevin.whittaker' --password ${{ secrets.AZURE_DEVOPS_PAT }} --store-password-in-clear-text
-
-    - name: Build LearningHub models projects
-      run: |
-        dotnet build LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj -c Release
-
-    - name: Push generated package to GitHub registry         
-      run: dotnet nuget push "**/bin/Release/*.nupkg"  --source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate 
+      run: dotnet nuget add source 'https://pkgs.dev.azure.com/e-LfH/_packaging/LearningHubFeed/nuget/v3/index.json' --name 'LearningHubFeed'  --username 'kevin.whittaker' --password ${{ secrets.AZURE_DEVOPS_PAT }} --store-password-in-clear-text    
 
     - name: Build elfhHub models projects
       run: |
