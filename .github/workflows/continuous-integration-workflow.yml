@@ -46,6 +46,7 @@ jobs:
             foreach ($csproj_file in $csproj_files) {
               Write-Host "Building $($csproj_file.FullName)"
               dotnet build "$($csproj_file.FullName)"
-              dotnet pack "$($csproj_file.FullName)" --configuration Release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
+              version=${{ steps.gitversion.outputs.nuGetVersionV2 }}-test
+              dotnet pack "$($csproj_file.FullName)" --configuration Release -o:package /p:PackageVersion=$version
             }                   
    
