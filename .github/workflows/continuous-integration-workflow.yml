@@ -48,5 +48,8 @@ jobs:
               dotnet build "$($csproj_file.FullName)"
               version=${{ steps.gitversion.outputs.nuGetVersionV2 }}-test
               dotnet pack "$($csproj_file.FullName)-test" --configuration Release -o:package /p:PackageVersion=$version
-            }                   
+            }    
+
+        - name: Push generated package to GitHub registry         
+          run: dotnet nuget push ./package/*.nupkg  --source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} 
    
