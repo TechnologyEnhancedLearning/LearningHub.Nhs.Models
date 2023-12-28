@@ -22,7 +22,7 @@ jobs:
       run: dotnet restore
 
     - name: Build
-      run: dotnet build --configuration $(BuildConfiguration)
+      run: dotnet build --configuration release
 
     - name: Test
       run: dotnet test --configuration $(BuildConfiguration)
