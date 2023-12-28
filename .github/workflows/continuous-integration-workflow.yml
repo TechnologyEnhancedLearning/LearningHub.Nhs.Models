@@ -46,8 +46,6 @@ jobs:
             foreach ($csproj_file in $csproj_files) {
               Write-Host "Building $($csproj_file.FullName)"
               dotnet build "$($csproj_file.FullName)"
-            }       
-            
-        - name: Package nuget        
-          run: dotnet pack -C Release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
-          working-directory: LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj
+              dotnet pack "$($csproj_file.FullName)" --configuration Release -o:package /p:PackageVersion=${{ steps.gitversion.outputs.nuGetVersionV2  }}
+            }                   
+   
