@@ -2,32 +2,26 @@ name: Models Continuous Integration
 on: [push]
 jobs:
   build:
-    env:
-        BuildConfiguration: 'Release'
-        DOTNET_ROLL_FORWARD: 'Major'
-        SOLUTION: 'LearningHub.Nhs.Models.sln'
-        name: Build and publish package
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
     - name: Setup .NET
-      uses: actions/setup-dotnet@v1
+      uses: actions/setup-dotnet@v6
       with:
-        dotnet-version: '6.0.x'  # Use the desired version
+        dotnet-version: 6.0.100
 
-    - name: Restore dependencies
-      run: dotnet restore
+    - name: Build projects
+      run: |
+        dotnet build LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj -c Release
+        dotnet build elfhHub.Nhs.Models/elfhHub.Nhs.Models.csproj -c Release
 
-    - name: Build
-      run: dotnet build **/*.csproj --configuration release
+    - name: Publish packages to GitHub Registry
+      run: |
+        dotnet nuget add source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} 
 
-    - name: Test
-      run: dotnet test --configuration $(BuildConfiguration)
-
-    - name: Pack
-      run: dotnet pack elfhHub.Nhs.Models/elfhHub.Nhs.Models.csproj LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj --no-build    
+        dotnet nuget push "**/bin/Release/*.nupkg" --source github --skip-duplicate 
     
    
