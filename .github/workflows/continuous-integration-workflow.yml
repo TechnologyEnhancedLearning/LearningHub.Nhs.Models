@@ -21,10 +21,5 @@ jobs:
         dotnet build LearningHub.Nhs.Models/LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj -c Release
         dotnet build LearningHub.Nhs.Models/elfhHub.Nhs.Models/elfhHub.Nhs.Models.csproj -c Release
 
-    - name: Publish packages to GitHub Registry
-      run: |
-        dotnet nuget add source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} 
-
-        dotnet nuget push "**/bin/Release/*.nupkg" --source github --skip-duplicate 
-    
-   
+    - name: Push generated package to GitHub registry         
+      run: dotnet nuget push "**/bin/Release/*.nupkg"  --source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} 
