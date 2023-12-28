@@ -21,35 +21,17 @@ jobs:
           with:
             dotnet-version: ${{ matrix.dotnet-version }}
 
-        - name: Install GitVersion
-          uses: gittools/actions/gitversion/setup@v0.9.7
-          with:
-            versionSpec: '5.5.0'
-            
-        - name: Determine Version
-          id:   gitversion
-          uses: gittools/actions/gitversion/execute@v0.9.7
-
-        - name: Display GitVersion outputs
-          run: |
-            echo "Major: ${{ steps.gitversion.outputs.major }}"
-            echo "Minor: ${{ steps.gitversion.outputs.minor }}"
-            echo "Patch: ${{ steps.gitversion.outputs.patch }}"
-            echo "NuGetVersionV2: ${{ steps.gitversion.outputs.nuGetVersionV2 }}"
-
-        - name: Build solution excluding SQL project
-          run: |
-            # List all .csproj files except for .sqlproj
-            $csproj_files = Get-ChildItem -Path . -Filter *.LearningHub.Nhs.Models.csproj -Recurse 
-
-            # Build each .csproj file
-            foreach ($csproj_file in $csproj_files) {
-              Write-Host "Building $($csproj_file.FullName)"
-              dotnet build "$($csproj_file.FullName)"
-              version=${{ steps.gitversion.outputs.nuGetVersionV2 }}-test
-              mkdir ./package/
-              dotnet pack "$($csproj_file.FullName)-test" --configuration Release -o:package /p:PackageVersion=$version             
-            }    
+        - name: Restore dependencies
+          run: dotnet restore
+    
+        - name: Build
+          run: dotnet build --configuration $(BuildConfiguration)
+    
+        - name: Test
+          run: dotnet test --configuration $(BuildConfiguration)
+    
+        - name: Pack
+          run: dotnet pack elfhHub.Nhs.Models/elfhHub.Nhs.Models.csproj LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj --no-build  
 
         - name: Push generated package to GitHub registry         
           run: dotnet nuget push ./package/*.nupkg  --source https://nuget.pkg.github.com/TechnologyEnhancedLearning/index.json   --api-key ${{ secrets.GITHUB_TOKEN }} 
