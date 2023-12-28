@@ -18,8 +18,8 @@ jobs:
 
     - name: Build projects
       run: |
-        dotnet build LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj -c Release
-        dotnet build elfhHub.Nhs.Models/elfhHub.Nhs.Models.csproj -c Release
+        dotnet build LearningHub.Nhs.Models/LearningHub.Nhs.Models/LearningHub.Nhs.Models.csproj -c Release
+        dotnet build LearningHub.Nhs.Models/elfhHub.Nhs.Models/elfhHub.Nhs.Models.csproj -c Release
 
     - name: Publish packages to GitHub Registry
       run: |
