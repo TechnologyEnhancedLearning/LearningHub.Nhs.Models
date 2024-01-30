@@ -9,7 +9,6 @@ The Learning Hub is provided and supported by the Technology Enhanced Learning P
 
 ## Required installs
 - [Visual Studio Professional 2022](https://visualstudio.microsoft.com/downloads/) or other suitable An IDE that supports the Microsoft Tech Stack
-  - Make sure you have the [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner) extension
 - [Git](https://git-scm.com/download)
 
 ## Getting the code
