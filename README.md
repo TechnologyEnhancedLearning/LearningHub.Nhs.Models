@@ -24,7 +24,8 @@ You should now be able to open the solution in your IDE by finding and opening t
 To build the solution, open the LearningHub.Nhs.Models.sln file in Visual Studio 2022 and build the solution using the standard build process.
 
 
-# Project Name
+# LearningHub.Nhs.Models
+
 ## Overview
 This repository contains a Visual Studio 2022 solution with two projects that create NuGet packages. 
 
