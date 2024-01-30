@@ -1,20 +1,64 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introduction
+This is the official open-source repository for the [Learning Hub](https://learninghub.nhs.uk/) platform. 
+
+The Learning Hub is the national digital learning platform providing easy access to a wide range of educational resources and support for the health and care workforce and educators.
+
+The Learning Hub is provided and supported by the Technology Enhanced Learning Platforms team at [NHS England](https://www.england.nhs.uk/).
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Required installs
+- [Visual Studio Professional 2022](https://visualstudio.microsoft.com/downloads/) or other suitable An IDE that supports the Microsoft Tech Stack
+  - Make sure you have the [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner) extension
+- [Git](https://git-scm.com/download)
+
+## Getting the code
+Clone the repository from [GitHub](https://github.com/TechnologyEnhancedLearning/LearningHub.Nhs.Models):
+
+```bash
+git clone git@github.com:(https://github.com/TechnologyEnhancedLearning/LearningHub.Nhs.Models.git)
+```
+
+## Build the solution
+You should now be able to open the solution in your IDE by finding and opening the `LearningHub.Nhs.Models` file.
+To build the solution, open the LearningHub.Nhs.Models.sln file in Visual Studio 2022 and build the solution using the standard build process.
+
+
+# Project Name
+## Overview
+This repository contains a Visual Studio 2022 solution with two projects that create NuGet packages. 
+
+## Projects
+1. elfhHub.Nhs.Models
+Description: elfhHub.Nhs.Models is a .NET 6.0 class library that defines a set of models for elfh solution.
+
+2. LearningHub.Nhs.Models
+Description: LearningHub.Nhs.Models is a .NET 6.0 class library that defines a set of models for learninghub solution.
+
+Both elfhHub.Nhs.Models and LearningHub.Nhs.Models are configured to create NuGet packages upon build and the version number can be configured in Package settings
+
+## Steps to Create NuGet Packages
+	- Build the solution.
+	- Navigate to the bin directory of each project.
+	- You will find the generated NuGet packages in the Release or Debug folder.
+
+# Publishing NuGet Packages
+You can publish the generated NuGet packages to a NuGet feed using the dotnet nuget push command or through Visual Studio's NuGet Package Manager.
+
+# Usage
+# Installation
+You can install the package via NuGet Package Manager or by running the following command in the Package Manager Console:
+
+```bash
+Install-Package elfhHub.Nhs.Models
+````
+
+```bash
+Install-Package LearningHub.Nhs.Models
+````
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+If you are interested in contributing to the Learning Hub, please contact [support@learninghub.nhs.uk](mailto:support@learninghub.nhs.uk)
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
