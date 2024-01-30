@@ -36,7 +36,7 @@ Description: elfhHub.Nhs.Models is a .NET 6.0 class library that defines a set o
 2. LearningHub.Nhs.Models
 Description: LearningHub.Nhs.Models is a .NET 6.0 class library that defines a set of models for learninghub solution.
 
-Both elfhHub.Nhs.Models and LearningHub.Nhs.Models are configured to create NuGet packages upon build and the version number can be configured in Package settings
+Both elfhHub.Nhs.Models and LearningHub.Nhs.Models are configured to create NuGet packages upon build and the version number can be configured in Package settings.
 
 ## Steps to Create NuGet Packages
 	- Build the solution.
@@ -47,7 +47,7 @@ Both elfhHub.Nhs.Models and LearningHub.Nhs.Models are configured to create NuGe
 You can publish the generated NuGet packages to a NuGet feed using the dotnet nuget push command or through Visual Studio's NuGet Package Manager.
 
 # Usage
-# Installation
+## Installation
 You can install the package via NuGet Package Manager or by running the following command in the Package Manager Console:
 
 ```bash
