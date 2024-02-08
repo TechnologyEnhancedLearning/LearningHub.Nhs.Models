@@ -1,8 +1,4 @@
-﻿// <copyright file="MyLearningAssessmentDetails.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.MyLearning
+﻿namespace LearningHub.Nhs.Models.MyLearning
 {
     /// <summary>
     /// The My Learning Assessment details.

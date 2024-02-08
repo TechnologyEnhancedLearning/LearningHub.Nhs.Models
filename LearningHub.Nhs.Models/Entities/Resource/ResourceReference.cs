@@ -1,8 +1,4 @@
-﻿// <copyright file="ResourceReference.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Resource
+﻿namespace LearningHub.Nhs.Models.Entities.Resource
 {
     using LearningHub.Nhs.Models.Entities.Hierarchy;
 

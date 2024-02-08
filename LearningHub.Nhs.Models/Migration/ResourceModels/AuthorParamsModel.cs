@@ -1,8 +1,4 @@
-﻿// <copyright file="AuthorParamsModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Migration.ResourceModels
+﻿namespace LearningHub.Nhs.Models.Migration.ResourceModels
 {
     /// <summary>
     /// Provides the standard parameters required for creating ResourceVersionAuthors via the MigrationService.CreateMetadataAsync method.

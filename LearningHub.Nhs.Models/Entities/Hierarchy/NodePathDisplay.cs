@@ -1,8 +1,4 @@
-﻿// <copyright file="NodePathDisplay.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Hierarchy
+﻿namespace LearningHub.Nhs.Models.Entities.Hierarchy
 {
     /// <summary>
     /// The node path display.

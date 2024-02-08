@@ -1,8 +1,4 @@
-﻿// <copyright file="NodeActivity.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Activity
+﻿namespace LearningHub.Nhs.Models.Entities.Activity
 {
     /// <summary>
     /// NodeActivity.

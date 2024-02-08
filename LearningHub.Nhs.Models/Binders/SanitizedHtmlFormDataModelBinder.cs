@@ -1,8 +1,4 @@
-﻿// <copyright file="SanitizedHtmlFormDataModelBinder.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Binders
+﻿namespace LearningHub.Nhs.Models.Binders
 {
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc.ModelBinding;

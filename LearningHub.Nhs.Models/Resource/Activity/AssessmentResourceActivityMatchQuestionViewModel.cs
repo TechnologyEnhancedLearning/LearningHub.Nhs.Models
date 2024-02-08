@@ -1,8 +1,4 @@
-﻿// <copyright file="AssessmentResourceActivityMatchQuestionViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.Activity
+﻿namespace LearningHub.Nhs.Models.Resource.Activity
 {
     /// <summary>
     /// The AssessmentResourceActivityMatchQuestionViewModel.

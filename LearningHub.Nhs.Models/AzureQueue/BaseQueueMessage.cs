@@ -1,8 +1,4 @@
-﻿// <copyright file="BaseQueueMessage.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.AzureQueue
+﻿namespace LearningHub.Nhs.Models.AzureQueue
 {
     /// <summary>
     /// The BaseQueueMessage.

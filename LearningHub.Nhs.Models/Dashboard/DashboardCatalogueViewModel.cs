@@ -1,7 +1,4 @@
-﻿// <copyright file="DashboardCatalogueViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-namespace LearningHub.Nhs.Models.Dashboard
+﻿namespace LearningHub.Nhs.Models.Dashboard
 {
     using System.Collections.Generic;
     using LearningHub.Nhs.Models.Provider;

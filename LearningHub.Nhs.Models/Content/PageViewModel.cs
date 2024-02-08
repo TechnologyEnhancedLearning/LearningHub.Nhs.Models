@@ -1,8 +1,4 @@
-﻿// <copyright file="PageViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Content
+﻿namespace LearningHub.Nhs.Models.Content
 {
     using System.Collections.Generic;
     using LearningHub.Nhs.Models.Enums.Content;

@@ -1,8 +1,4 @@
-﻿// <copyright file="LogBasicViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Log
+﻿namespace LearningHub.Nhs.Models.Log
 {
     using System;
     using System.ComponentModel.DataAnnotations;

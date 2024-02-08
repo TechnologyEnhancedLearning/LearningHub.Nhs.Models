@@ -1,8 +1,4 @@
-﻿// <copyright file="ResourceCreateProcResult.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Migration.ResultModels
+﻿namespace LearningHub.Nhs.Models.Migration.ResultModels
 {
     /// <summary>
     /// Stores Ids returned by the migrations.ResourceCreate stored proc.

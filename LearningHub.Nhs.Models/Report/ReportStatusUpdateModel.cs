@@ -1,8 +1,4 @@
-﻿// <copyright file="ReportStatusUpdateModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Report
+﻿namespace LearningHub.Nhs.Models.Report
 {
     /// <summary>
     /// The ReportStatusUpdateModel class.

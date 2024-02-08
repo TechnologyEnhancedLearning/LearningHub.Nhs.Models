@@ -1,8 +1,4 @@
-﻿// <copyright file="UserContactViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace elfhHub.Nhs.Models.Common
+﻿namespace elfhHub.Nhs.Models.Common
 {
     /// <summary>
     /// For sending an email from an admin user to a regular user, with custom subject and body content.

@@ -1,8 +1,4 @@
-﻿// <copyright file="MessageSendResult.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Messaging
+﻿namespace LearningHub.Nhs.Models.Messaging
 {
     using System.Collections.Generic;
     using LearningHub.Nhs.Models.Validation;

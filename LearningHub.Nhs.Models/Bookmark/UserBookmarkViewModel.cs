@@ -1,8 +1,4 @@
-﻿// <copyright file="UserBookmarkViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Bookmark
+﻿namespace LearningHub.Nhs.Models.Bookmark
 {
     /// <summary>
     /// Defines the <see cref="UserBookmarkViewModel" />.

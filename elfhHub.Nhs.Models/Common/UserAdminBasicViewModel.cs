@@ -1,8 +1,4 @@
-﻿// <copyright file="UserAdminBasicViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace elfhHub.Nhs.Models.Common
+﻿namespace elfhHub.Nhs.Models.Common
 {
     /// <summary>
     /// The view model for user search screen in Admin.

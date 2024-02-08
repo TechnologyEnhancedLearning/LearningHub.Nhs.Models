@@ -1,8 +1,4 @@
-﻿// <copyright file="MediaResourceActivityTypeEnum.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Enums
+﻿namespace LearningHub.Nhs.Models.Enums
 {
     /// <summary>
     /// The media activity type enum.

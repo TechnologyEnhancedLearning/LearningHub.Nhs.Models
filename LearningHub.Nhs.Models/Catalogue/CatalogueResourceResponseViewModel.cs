@@ -1,8 +1,4 @@
-﻿// <copyright file="CatalogueResourceResponseViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Catalogue
+﻿namespace LearningHub.Nhs.Models.Catalogue
 {
     using System.Collections.Generic;
 

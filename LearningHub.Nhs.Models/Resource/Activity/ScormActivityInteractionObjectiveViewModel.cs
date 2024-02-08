@@ -1,8 +1,4 @@
-﻿// <copyright file="ScormActivityInteractionObjectiveViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-/// <summary>
+﻿/// <summary>
 /// The ScormActivity Interaction Objective ViewModel.
 /// </summary>
 public class ScormActivityInteractionObjectiveViewModel

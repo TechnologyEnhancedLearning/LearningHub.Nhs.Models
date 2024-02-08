@@ -1,8 +1,4 @@
-﻿// <copyright file="EmailTemplate.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Messaging
+﻿namespace LearningHub.Nhs.Models.Entities.Messaging
 {
     /// <summary>
     /// The Email Template.

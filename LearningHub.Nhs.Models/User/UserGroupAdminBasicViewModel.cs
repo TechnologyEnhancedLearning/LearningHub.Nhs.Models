@@ -1,8 +1,4 @@
-﻿// <copyright file="UserGroupAdminBasicViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.User
+﻿namespace LearningHub.Nhs.Models.User
 {
     using System;
 

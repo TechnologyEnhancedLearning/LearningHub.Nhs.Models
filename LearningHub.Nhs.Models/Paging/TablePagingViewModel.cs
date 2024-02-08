@@ -1,8 +1,4 @@
-﻿// <copyright file="TablePagingViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Paging
+﻿namespace LearningHub.Nhs.Models.Paging
 {
     using System.Collections.Generic;
     using LearningHub.Nhs.Models.Common;

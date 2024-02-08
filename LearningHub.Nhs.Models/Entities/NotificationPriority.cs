@@ -1,8 +1,4 @@
-﻿// <copyright file="NotificationPriority.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities
+﻿namespace LearningHub.Nhs.Models.Entities
 {
     /// <summary>
     /// The notification priority.

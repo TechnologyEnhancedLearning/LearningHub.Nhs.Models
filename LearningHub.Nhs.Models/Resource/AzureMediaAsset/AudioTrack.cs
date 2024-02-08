@@ -1,8 +1,4 @@
-﻿// <copyright file="AudioTrack.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.AzureMediaAsset
+﻿namespace LearningHub.Nhs.Models.Resource.AzureMediaAsset
 {
     /// <summary>
     /// AudioTrack.

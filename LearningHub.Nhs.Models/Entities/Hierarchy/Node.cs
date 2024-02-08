@@ -1,8 +1,4 @@
-﻿// <copyright file="Node.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Hierarchy
+﻿namespace LearningHub.Nhs.Models.Entities.Hierarchy
 {
     using System.Collections.Generic;
     using LearningHub.Nhs.Models.Enums;

@@ -1,8 +1,4 @@
-﻿// <copyright file="StandardInputModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Migration.InputModels
+﻿namespace LearningHub.Nhs.Models.Migration.InputModels
 {
     using System;
     using Newtonsoft.Json;

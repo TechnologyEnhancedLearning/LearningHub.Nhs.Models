@@ -1,8 +1,4 @@
-﻿// <copyright file="TermsAndConditions.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace elfhHub.Nhs.Models.Entities
+﻿namespace elfhHub.Nhs.Models.Entities
 {
     using System;
     using System.Collections.Generic;

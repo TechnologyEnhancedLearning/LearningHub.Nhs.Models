@@ -1,8 +1,4 @@
-﻿// <copyright file="SearchFeedbackActionModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Search.SearchFeedback
+﻿namespace LearningHub.Nhs.Models.Search.SearchFeedback
 {
     using Newtonsoft.Json;
 

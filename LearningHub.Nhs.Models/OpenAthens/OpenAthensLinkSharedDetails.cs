@@ -1,8 +1,4 @@
-﻿// <copyright file="OpenAthensLinkSharedDetails.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.OpenAthens
+﻿namespace LearningHub.Nhs.Models.OpenAthens
 {
     /// <summary>
     /// The open athens link shared details.

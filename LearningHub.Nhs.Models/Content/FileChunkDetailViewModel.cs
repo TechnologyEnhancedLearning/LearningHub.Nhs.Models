@@ -1,8 +1,4 @@
-﻿// <copyright file="FileChunkDetailViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Content
+﻿namespace LearningHub.Nhs.Models.Content
 {
     /// <summary>
     /// The file create request view model.

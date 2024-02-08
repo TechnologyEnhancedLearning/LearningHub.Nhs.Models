@@ -1,6 +1,3 @@
-// <copyright file="EventViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
 namespace LearningHub.Nhs.Models.EventLog
 {
     using System;

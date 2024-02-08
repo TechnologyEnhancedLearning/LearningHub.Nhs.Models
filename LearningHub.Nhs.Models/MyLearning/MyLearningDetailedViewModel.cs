@@ -1,8 +1,4 @@
-﻿// <copyright file="MyLearningDetailedViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.MyLearning
+﻿namespace LearningHub.Nhs.Models.MyLearning
 {
     using System.Collections.Generic;
 

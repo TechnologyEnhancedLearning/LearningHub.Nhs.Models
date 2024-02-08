@@ -1,8 +1,4 @@
-﻿// <copyright file="SanitizeHtmlUtility.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Binders
+﻿namespace LearningHub.Nhs.Models.Binders
 {
     using System;
     using System.Collections.Generic;

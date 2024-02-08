@@ -1,8 +1,4 @@
-﻿// <copyright file="MigrationInputRecord.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Migration
+﻿namespace LearningHub.Nhs.Models.Entities.Migration
 {
     using LearningHub.Nhs.Models.Entities.Resource;
     using LearningHub.Nhs.Models.Enums;

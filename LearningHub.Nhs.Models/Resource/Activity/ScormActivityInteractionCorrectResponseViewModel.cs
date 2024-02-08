@@ -1,8 +1,4 @@
-﻿// <copyright file="ScormActivityInteractionCorrectResponseViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-/// <summary>
+﻿/// <summary>
 /// The ScormActivityInteractionCorrectResponseViewModel.
 /// </summary>
 public class ScormActivityInteractionCorrectResponseViewModel

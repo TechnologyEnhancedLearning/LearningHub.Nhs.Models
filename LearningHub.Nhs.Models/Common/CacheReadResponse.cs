@@ -1,8 +1,4 @@
-﻿// <copyright file="CacheReadResponse.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Caching
+﻿namespace LearningHub.Nhs.Caching
 {
     using System;
     using LearningHub.Nhs.Models.Enums;

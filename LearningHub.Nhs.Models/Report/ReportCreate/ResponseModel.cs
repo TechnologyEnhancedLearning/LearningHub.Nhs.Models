@@ -1,8 +1,4 @@
-﻿// <copyright file="ResponseModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Report.ReportCreate
+﻿namespace LearningHub.Nhs.Models.Report.ReportCreate
 {
     /// <summary>
     /// The ResponseModel class.

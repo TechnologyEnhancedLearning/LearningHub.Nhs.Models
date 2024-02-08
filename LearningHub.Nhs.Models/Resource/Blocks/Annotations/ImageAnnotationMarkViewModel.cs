@@ -1,7 +1,3 @@
-// <copyright file="ImageAnnotationMarkViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
 namespace LearningHub.Nhs.Models.Resource.Blocks.Annotations
 {
     using LearningHub.Nhs.Models.Enums;

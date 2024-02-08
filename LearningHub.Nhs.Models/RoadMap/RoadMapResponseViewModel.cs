@@ -1,8 +1,4 @@
-﻿// <copyright file="RoadMapResponseViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.RoadMap
+﻿namespace LearningHub.Nhs.Models.RoadMap
 {
     using System.Collections.Generic;
 

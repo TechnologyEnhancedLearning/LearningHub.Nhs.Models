@@ -1,8 +1,4 @@
-﻿// <copyright file="ProviderViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Provider
+﻿namespace LearningHub.Nhs.Models.Provider
 {
     /// <summary>
     /// The provider view model.

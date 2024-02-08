@@ -1,8 +1,4 @@
-﻿// <copyright file="UserProviderViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Provider
+﻿namespace LearningHub.Nhs.Models.Provider
 {
     /// <summary>
     /// The view model for user provider associations via Admin.

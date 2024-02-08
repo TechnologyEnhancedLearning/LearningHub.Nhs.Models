@@ -1,8 +1,4 @@
-﻿// <copyright file="ExternalSystemViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.ExternalSystem
+﻿namespace LearningHub.Nhs.Models.ExternalSystem
 {
     using System;
     using System.ComponentModel.DataAnnotations;

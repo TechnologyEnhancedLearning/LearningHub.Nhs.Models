@@ -1,8 +1,4 @@
-﻿// <copyright file="CacheKeys.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Constants
+﻿namespace LearningHub.Nhs.Models.Constants
 {
     /// <summary>
     /// The cache keys.

@@ -1,8 +1,4 @@
-﻿// <copyright file="InternalSystemViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Maintenance
+﻿namespace LearningHub.Nhs.Models.Maintenance
 {
     using System;
 

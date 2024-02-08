@@ -1,8 +1,4 @@
-﻿// <copyright file="LinkUserToSsoRequestViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace elfhHub.Nhs.Models.Common
+﻿namespace elfhHub.Nhs.Models.Common
 {
     /// <summary>
     /// The link existing user to sso request view model.
