@@ -1,8 +1,4 @@
-﻿// <copyright file="CatalogueAccessRequestViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Catalogue
+﻿namespace LearningHub.Nhs.Models.Catalogue
 {
     using System;
     using LearningHub.Nhs.Models.Enums;

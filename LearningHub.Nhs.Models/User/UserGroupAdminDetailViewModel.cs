@@ -1,8 +1,4 @@
-﻿// <copyright file="UserGroupAdminDetailViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.User
+﻿namespace LearningHub.Nhs.Models.User
 {
     /// <summary>
     /// The view model for user group detail screen in Admin.

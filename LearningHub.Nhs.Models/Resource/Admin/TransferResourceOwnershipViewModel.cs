@@ -1,8 +1,4 @@
-﻿// <copyright file="TransferResourceOwnershipViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.Admin
+﻿namespace LearningHub.Nhs.Models.Resource.Admin
 {
     /// <summary>
     /// The transfer resource ownership view model.

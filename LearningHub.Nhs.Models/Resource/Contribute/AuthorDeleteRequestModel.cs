@@ -1,8 +1,4 @@
-﻿// <copyright file="AuthorDeleteRequestModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.Contribute
+﻿namespace LearningHub.Nhs.Models.Resource.Contribute
 {
     /// <summary>
     /// The author delete request view model.

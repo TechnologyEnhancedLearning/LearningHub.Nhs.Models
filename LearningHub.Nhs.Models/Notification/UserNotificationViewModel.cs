@@ -1,8 +1,4 @@
-﻿// <copyright file="UserNotificationViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Notification
+﻿namespace LearningHub.Nhs.Models.Notification
 {
     using System;
     using LearningHub.Nhs.Models.Enums;

@@ -1,7 +1,3 @@
-// <copyright file="AssessmentValidator.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
 namespace LearningHub.Nhs.Models.Validation
 {
     using System.Linq;

@@ -1,8 +1,4 @@
-﻿// <copyright file="HierarchyEditMoveResourceViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Hierarchy
+﻿namespace LearningHub.Nhs.Models.Hierarchy
 {
     /// <summary>
     /// The hierarchy edit move resource view model.

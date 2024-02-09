@@ -1,8 +1,4 @@
-﻿// <copyright file="AssessmentProgressViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.ResourceDisplay
+﻿namespace LearningHub.Nhs.Models.Resource.ResourceDisplay
 {
     using System.Collections.Generic;
     using LearningHub.Nhs.Models.Resource.Activity;

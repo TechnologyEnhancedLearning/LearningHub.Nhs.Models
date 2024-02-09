@@ -1,8 +1,4 @@
-﻿// <copyright file="Resource.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Resource
+﻿namespace LearningHub.Nhs.Models.Entities.Resource
 {
     using System.Collections.Generic;
     using LearningHub.Nhs.Models.Entities.Activity;

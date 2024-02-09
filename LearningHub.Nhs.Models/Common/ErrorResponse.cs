@@ -1,8 +1,4 @@
-﻿// <copyright file="ErrorResponse.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Common
+﻿namespace LearningHub.Nhs.Models.Common
 {
     /// <summary>
     /// The error response.

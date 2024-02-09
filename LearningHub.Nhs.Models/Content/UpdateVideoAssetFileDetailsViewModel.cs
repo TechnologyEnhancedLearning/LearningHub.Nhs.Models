@@ -1,8 +1,4 @@
-﻿// <copyright file="UpdateVideoAssetFileDetailsViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Content
+﻿namespace LearningHub.Nhs.Models.Content
 {
     /// <summary>
     /// Defines the <see cref="UpdateVideoAssetFileDetailsViewModel" />.

@@ -1,8 +1,4 @@
-﻿// <copyright file="ResourceVersionExtendedViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource
+﻿namespace LearningHub.Nhs.Models.Resource
 {
     /// <summary>
     /// The resource version extended view model.

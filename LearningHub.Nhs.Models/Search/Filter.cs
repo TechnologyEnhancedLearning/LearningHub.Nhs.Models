@@ -1,8 +1,4 @@
-﻿// <copyright file="Filter.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Search
+﻿namespace LearningHub.Nhs.Models.Search
 {
     using Newtonsoft.Json;
 

@@ -1,8 +1,4 @@
-﻿// <copyright file="UserExternalSystemViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.ExternalSystem
+﻿namespace LearningHub.Nhs.Models.ExternalSystem
 {
     /// <summary>
     /// The user notification view model.

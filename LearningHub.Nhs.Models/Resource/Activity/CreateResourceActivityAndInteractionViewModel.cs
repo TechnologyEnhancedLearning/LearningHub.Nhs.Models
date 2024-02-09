@@ -1,8 +1,4 @@
-﻿// <copyright file="CreateResourceActivityAndInteractionViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.Activity
+﻿namespace LearningHub.Nhs.Models.Resource.Activity
 {
     /// <summary>
     /// The CreateResourceActivityAndInteractionViewModel. Wrapper model for storing both a CreateResourceActivityViewModel and a CreateMediaResourceActivityInteractionViewModel at the same time.

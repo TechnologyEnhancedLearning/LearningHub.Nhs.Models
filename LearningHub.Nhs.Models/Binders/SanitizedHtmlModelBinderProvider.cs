@@ -1,8 +1,4 @@
-﻿// <copyright file="SanitizedHtmlModelBinderProvider.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Binders
+﻿namespace LearningHub.Nhs.Models.Binders
 {
     using System.Collections.Generic;
     using LearningHub.Nhs.Models.Resource.Contribute;

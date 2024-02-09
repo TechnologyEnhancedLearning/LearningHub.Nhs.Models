@@ -1,8 +1,4 @@
-﻿// <copyright file="PageSectionStatus.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Enums.Content
+﻿namespace LearningHub.Nhs.Models.Enums.Content
 {
     /// <summary>
     /// The Page Section status enum.

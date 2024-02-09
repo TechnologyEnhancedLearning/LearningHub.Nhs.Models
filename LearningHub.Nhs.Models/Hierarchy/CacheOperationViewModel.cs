@@ -1,8 +1,4 @@
-﻿// <copyright file="CacheOperationViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Hierarchy
+﻿namespace LearningHub.Nhs.Models.Hierarchy
 {
     using System.ComponentModel.DataAnnotations;
 

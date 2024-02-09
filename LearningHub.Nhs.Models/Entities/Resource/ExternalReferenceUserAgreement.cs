@@ -1,8 +1,4 @@
-﻿// <copyright file="ExternalReferenceUserAgreement.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Entities.Resource
+﻿namespace LearningHub.Nhs.Entities.Resource
 {
     using LearningHub.Nhs.Models.Entities;
 

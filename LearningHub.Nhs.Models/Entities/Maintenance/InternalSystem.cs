@@ -1,8 +1,4 @@
-﻿// <copyright file="InternalSystem.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Maintenance
+﻿namespace LearningHub.Nhs.Models.Entities.Maintenance
 {
     /// <summary>
     /// The Internal System.

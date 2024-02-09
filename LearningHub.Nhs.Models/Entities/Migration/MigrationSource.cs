@@ -1,8 +1,4 @@
-﻿// <copyright file="MigrationSource.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Migration
+﻿namespace LearningHub.Nhs.Models.Entities.Migration
 {
     /// <summary>
     /// The migration source.

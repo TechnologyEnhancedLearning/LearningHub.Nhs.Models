@@ -1,8 +1,4 @@
-﻿// <copyright file="PageSectionDetail.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Content
+﻿namespace LearningHub.Nhs.Models.Entities.Content
 {
     /// <summary>
     /// Defines the <see cref="PageSectionDetail" />.

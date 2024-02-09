@@ -1,8 +1,4 @@
-﻿// <copyright file="CreateScormActivityValidator.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Validation
+﻿namespace LearningHub.Nhs.Models.Validation
 {
     using FluentValidation;
 

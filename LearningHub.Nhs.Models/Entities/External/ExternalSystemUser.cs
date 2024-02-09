@@ -1,8 +1,4 @@
-﻿// <copyright file="ExternalSystemUser.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.External
+﻿namespace LearningHub.Nhs.Models.Entities.External
 {
     /// <summary>
     /// The external system user entity.

@@ -1,8 +1,4 @@
-﻿// <copyright file="ScormViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource
+﻿namespace LearningHub.Nhs.Models.Resource
 {
     using LearningHub.Nhs.Models.Enums;
 

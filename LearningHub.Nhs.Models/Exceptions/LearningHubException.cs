@@ -1,8 +1,4 @@
-﻿// <copyright file="LearningHubException.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Exceptions
+﻿namespace LearningHub.Nhs.Models.Exceptions
 {
     using System;
 

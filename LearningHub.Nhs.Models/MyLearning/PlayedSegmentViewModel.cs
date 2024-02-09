@@ -1,8 +1,4 @@
-﻿// <copyright file="PlayedSegmentViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.MyLearning
+﻿namespace LearningHub.Nhs.Models.MyLearning
 {
     /// <summary>
     /// The played segment view model. Used in My Learning screen progress popup.

@@ -1,8 +1,4 @@
-﻿// <copyright file="UserTermsAndConditionsValidator.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace elfhHub.Nhs.Models.Validation
+﻿namespace elfhHub.Nhs.Models.Validation
 {
     using elfhHub.Nhs.Models.Common;
     using FluentValidation;

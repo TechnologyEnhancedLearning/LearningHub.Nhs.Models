@@ -1,8 +1,4 @@
-﻿// <copyright file="TextBlockViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.Blocks
+﻿namespace LearningHub.Nhs.Models.Resource.Blocks
 {
     /// <summary>
     /// Defines the <see cref="TextBlockViewModel" />.

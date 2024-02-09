@@ -1,8 +1,4 @@
-﻿// <copyright file="Event.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Analytics
+﻿namespace LearningHub.Nhs.Models.Entities.Analytics
 {
     using System;
     using LearningHub.Nhs.Models.Enums;

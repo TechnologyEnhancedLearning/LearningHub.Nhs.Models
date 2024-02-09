@@ -1,8 +1,4 @@
-﻿// <copyright file="TranscriptFileViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.Files
+﻿namespace LearningHub.Nhs.Models.Resource.Files
 {
     /// <summary>
     /// The Transcript File.

@@ -1,8 +1,4 @@
-﻿// <copyright file="MigrationInputRecordValidationResult.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Migration.ResultModels
+﻿namespace LearningHub.Nhs.Models.Migration.ResultModels
 {
     using System.Collections.Generic;
     using System.Linq;

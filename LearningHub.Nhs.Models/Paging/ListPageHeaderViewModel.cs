@@ -1,8 +1,4 @@
-﻿// <copyright file="ListPageHeaderViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Paging
+﻿namespace LearningHub.Nhs.Models.Paging
 {
     /// <summary>
     /// The list page header view model.

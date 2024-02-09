@@ -1,8 +1,4 @@
-﻿// <copyright file="Status.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Enums.Report
+﻿namespace LearningHub.Nhs.Models.Enums.Report
 {
     /// <summary>
     /// The report status enum.

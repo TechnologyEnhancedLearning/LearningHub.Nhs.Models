@@ -1,8 +1,4 @@
-﻿// <copyright file="ElfhMappingProfile.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace elfhHub.Nhs.Models.Automapper
+﻿namespace elfhHub.Nhs.Models.Automapper
 {
     using AutoMapper;
     using elfhHub.Nhs.Models.Common;

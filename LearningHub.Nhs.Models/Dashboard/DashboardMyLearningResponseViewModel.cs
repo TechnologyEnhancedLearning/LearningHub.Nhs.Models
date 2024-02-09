@@ -1,8 +1,4 @@
-﻿// <copyright file="DashboardMyLearningResponseViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Dashboard
+﻿namespace LearningHub.Nhs.Models.Dashboard
 {
     using System.Collections.Generic;
 

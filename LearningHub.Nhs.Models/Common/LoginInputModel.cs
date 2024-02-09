@@ -1,8 +1,4 @@
-﻿// <copyright file="LoginInputModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Common
+﻿namespace LearningHub.Nhs.Models.Common
 {
     using System.ComponentModel.DataAnnotations;
 

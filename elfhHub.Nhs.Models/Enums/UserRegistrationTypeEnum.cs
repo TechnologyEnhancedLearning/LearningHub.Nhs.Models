@@ -1,8 +1,4 @@
-﻿// <copyright file="UserRegistrationTypeEnum.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace elfhHub.Nhs.Models.Enums
+﻿namespace elfhHub.Nhs.Models.Enums
 {
     /// <summary>
     /// The UserRegistrationTypeEnum.

@@ -1,8 +1,4 @@
-﻿// <copyright file="CatalogueAdminsViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Catalogue
+﻿namespace LearningHub.Nhs.Models.Catalogue
 {
     using LearningHub.Nhs.Models.Common;
 

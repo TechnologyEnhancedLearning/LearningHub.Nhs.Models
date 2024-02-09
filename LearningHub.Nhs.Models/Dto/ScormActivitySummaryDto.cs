@@ -1,8 +1,4 @@
-﻿// <copyright file="ScormActivitySummaryDto.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Dto
+﻿namespace LearningHub.Nhs.Models.Dto
 {
     /// <summary>
     /// The Scorm Activity Summary Dto.

@@ -1,8 +1,4 @@
-﻿// <copyright file="StagingTableInputModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Migration.InputModels
+﻿namespace LearningHub.Nhs.Models.Migration.InputModels
 {
     using System;
     using System.ComponentModel.DataAnnotations.Schema;

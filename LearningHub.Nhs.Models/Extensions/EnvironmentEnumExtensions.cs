@@ -1,8 +1,4 @@
-﻿// <copyright file="EnvironmentEnumExtensions.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Extensions
+﻿namespace LearningHub.Nhs.Models.Extensions
 {
     using LearningHub.Nhs.Models.Enums;
 

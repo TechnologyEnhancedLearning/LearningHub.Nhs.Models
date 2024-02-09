@@ -1,8 +1,4 @@
-﻿// <copyright file="ResourceDetailViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.Contribute
+﻿namespace LearningHub.Nhs.Models.Resource.Contribute
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;

@@ -1,8 +1,4 @@
-﻿// <copyright file="Scope.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities
+﻿namespace LearningHub.Nhs.Models.Entities
 {
     using LearningHub.Nhs.Models.Entities.Hierarchy;
     using LearningHub.Nhs.Models.Enums;

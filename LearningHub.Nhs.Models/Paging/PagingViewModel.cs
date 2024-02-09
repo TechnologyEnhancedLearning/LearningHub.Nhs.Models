@@ -1,8 +1,4 @@
-﻿// <copyright file="PagingViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Paging
+﻿namespace LearningHub.Nhs.Models.Paging
 {
     using System;
 

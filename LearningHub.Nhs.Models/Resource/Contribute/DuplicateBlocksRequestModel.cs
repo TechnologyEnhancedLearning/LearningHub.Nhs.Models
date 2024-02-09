@@ -1,7 +1,3 @@
-// <copyright file="DuplicateBlocksRequestModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
 namespace LearningHub.Nhs.Models.Resource.Contribute
 {
     using System.Collections.Generic;

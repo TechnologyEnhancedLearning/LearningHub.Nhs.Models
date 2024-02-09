@@ -1,8 +1,4 @@
-﻿// <copyright file="WholeSlideImageViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource.Blocks
+﻿namespace LearningHub.Nhs.Models.Resource.Blocks
 {
     using System.Collections.Generic;
     using LearningHub.Nhs.Models.Resource.Blocks.Annotations;

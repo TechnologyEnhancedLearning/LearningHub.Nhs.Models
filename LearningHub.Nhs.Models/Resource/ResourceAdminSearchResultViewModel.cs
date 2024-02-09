@@ -1,8 +1,4 @@
-﻿// <copyright file="ResourceAdminSearchResultViewModel.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Resource
+﻿namespace LearningHub.Nhs.Models.Resource
 {
     using System;
     using System.Collections.Generic;

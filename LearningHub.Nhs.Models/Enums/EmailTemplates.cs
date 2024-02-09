@@ -1,8 +1,4 @@
-﻿// <copyright file="EmailTemplates.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Enums
+﻿namespace LearningHub.Nhs.Models.Enums
 {
     /// <summary>
     /// The EmailTemplates enum, which maps template names to their ids.

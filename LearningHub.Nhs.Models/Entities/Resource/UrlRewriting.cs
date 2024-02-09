@@ -1,8 +1,4 @@
-﻿// <copyright file="UrlRewriting.cs" company="HEE.nhs.uk">
-// Copyright (c) HEE.nhs.uk.
-// </copyright>
-
-namespace LearningHub.Nhs.Models.Entities.Resource
+﻿namespace LearningHub.Nhs.Models.Entities.Resource
 {
     /// <summary>
     /// Defines the <see cref="UrlRewriting" />.
