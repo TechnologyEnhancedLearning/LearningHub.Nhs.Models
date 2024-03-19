@@ -28,6 +28,5 @@ jobs:
         dotnet build LearningHub.Nhs.Models.sln --configuration release
         dotnet pack
 
-    - name: Push generated package to GitHub registry         
-      run: dotnet nuget push '**/bin/Release/*.nupkg'  --source https://pkgs.dev.azure.com/e-LfH/_packaging/LearningHubFeed/nuget/v3/index.json   --api-key ${{ secrets.AZURE_DEVOPS_PAT }} --skip-duplicate 
-    
+    - name: Push generated package to GitHub repository
+      run: dotnet nuget push **/bin/Release/*.nupkg --source https://pkgs.dev.azure.com/e-LfH/_packaging/LearningHubFeed/nuget/v3/index.json --api-key ${{ secrets.AZURE_DEVOPS_PAT }} --skip-duplicate
