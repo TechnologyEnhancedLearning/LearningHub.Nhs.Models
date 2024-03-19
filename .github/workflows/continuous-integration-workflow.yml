@@ -7,7 +7,6 @@ jobs:
       matrix:
        dotnet-version: ['6.0.x']
 
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -30,4 +29,6 @@ jobs:
         dotnet pack LearningHub.Nhs.Models.sln --configuration release
 
     - name: Push generated package to GitHub repository
-      run: dotnet nuget push **/bin/Release/*.nupkg --source https://pkgs.dev.azure.com/e-LfH/_packaging/LearningHubFeed/nuget/v3/index.json --api-key ${{ secrets.AZURE_DEVOPS_PAT }} --skip-duplicate
+      run: |
+        dotnet nuget push **/bin/Release/*.nupkg --source https://pkgs.dev.azure.com/e-LfH/_packaging/LearningHubFeed/nuget/v3/index.json --api-key ${{ secrets.AZURE_DEVOPS_PAT }} --skip-duplicate
+        dotnet nuget push **/bin/x64/Release/*.nuget --source https://pkgs.dev.azure.com/e-LfH/_packaging/LearningHubFeed/nuget/v3/index.json --api-key ${{ secrets.AZURE_DEVOPS_PAT }} --skip-duplicate
