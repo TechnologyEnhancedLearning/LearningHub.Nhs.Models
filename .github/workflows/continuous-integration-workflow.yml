@@ -1,11 +1,12 @@
 name: Models Continuous Integration
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   build:
     runs-on: windows-latest
     strategy: 
       matrix:
        dotnet-version: ['6.0.x']
+
 
     steps:
     - name: Checkout repository
