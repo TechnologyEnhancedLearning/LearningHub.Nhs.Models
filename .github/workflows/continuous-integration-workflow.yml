@@ -26,7 +26,7 @@ jobs:
     - name: Build elfhHub models projects
       run: |
         dotnet build LearningHub.Nhs.Models.sln --configuration release
-        dotnet pack
+        dotnet pack LearningHub.Nhs.Models.sln --configuration release
 
     - name: Push generated package to GitHub repository
       run: dotnet nuget push **/bin/Release/*.nupkg --source https://pkgs.dev.azure.com/e-LfH/_packaging/LearningHubFeed/nuget/v3/index.json --api-key ${{ secrets.AZURE_DEVOPS_PAT }} --skip-duplicate
